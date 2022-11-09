@@ -78,7 +78,7 @@ shinyServer(function(input, output) {
 
       # Hyperlink to the readme file
 
-      url <- a("Readme file on Github", href="https://github.com/ezrataylorfda/Developing_Data_Products_Week_4/edit/main/README.md")
+      url <- a("Readme file on Github", href="https://github.com/ezrataylorfda/Developing_Data_Products_Week-4/blob/main/README.md")
       output$link <- renderUI({
             tagList("URL link:", url)
       })
