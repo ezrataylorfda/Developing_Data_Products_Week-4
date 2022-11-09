@@ -1,0 +1,37 @@
+---
+title: "Developing Data Products"
+subtitle: "Week 4 Presentation"
+author: "Ezra Taylor"
+date: "11/4/2022"
+output: ioslides_presentation
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+## Create-your-own MPG Model  
+
+This is a presentation to accompany the application built for the Week 4 Project in the Developing Data Products class.  
+
+The application can be accessed here: [Create-your-own MPG Model](https://ezrataylorfda.shinyapps.io/Week_4_Project/)
+
+
+## What does it do?  
+
+This is a Shiny application that allows the user to do the following:  
+
+- Generate a linear model based on the mtcars dataset to estimate fuel efficiency mpg (miles per gallon) based on the user's choice of predictor variables.  
+- Calculate the predicted mpg for a user-defined car based on parameters chosen by the user for that car.  
+
+This model is based on the mtcars dataset available within RStudio.  
+
+## How do I use this application?  
+
+Step 1: Check the boxes for the variables you want to include as predictors in the linear model. The default model includes # of cylinders, horsepower, weight, and transmission as predictors.  
+
+Step 2: Input the parameters for the user's car. Default values for each parameter have already been populated.  
+
+Step 3: Click either of the submit buttons. One is at the top and another is at the bottom of the side panel.  
+
+## Thank you!
